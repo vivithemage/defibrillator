@@ -6,4 +6,4 @@ LEMP stacks can sometimes return 502 errors and this can occur for a variety of 
 
 Initially the plan is to just to monitor the site and reboot nginx and php-fpm if it falls over. Some potential future enhancements would be to fix nginx/php-fpm configs automatically but it's just monitor and reboot for the moment.
 
-###Coming soon!
+### Coming soon!
