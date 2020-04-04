@@ -20,7 +20,7 @@ pip install -r requirements.txt
 To install the crontab, replace the url with your own and run:
 
 ```shell
-python src/install_cron.py https://www.example.com
+python install.py https://www.example.com
 ```
 
 It's important this returns a 200 code. So if you put http://example.com and it comes up with a 301
