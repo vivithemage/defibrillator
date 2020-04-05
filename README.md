@@ -1,4 +1,4 @@
-# 502-defibrillator
+# Defibrillator
 
 ## Overview
 
