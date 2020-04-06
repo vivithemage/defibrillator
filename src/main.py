@@ -14,7 +14,7 @@ class Defib:
       return r.status_code == 200
 
     except requests.ConnectionError:
-      return false
+      return False
 
   def restart(self, service):
     os.system("sudo service " + service + " stop")
@@ -23,7 +23,7 @@ class Defib:
   def restart_all(self):
     self.restart("nginx")
     self.restart("mysqld")
-    self.restart("php-fpm")
+    self.restart("php7.0-fpm")
 
     time.sleep(60)
 
